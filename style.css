@@ -1,0 +1,35 @@
+                                                     /*centrage css*/
+
+/*margin auto*/
+.element {
+    /*s'applique sur l'enfant*/
+    margin: auto;
+    width: 100rem/*moins que 100% du parent*/;
+}
+
+/*position absolue*/
+.element {
+    /*s'applique sur l'enfant*/
+    position: absolute;
+    /*parent en position relative/absolue/fixed*/
+    top: 50%;
+    left: 50%;
+    width: 100rem /*moins que 100% du parent*/;
+    translate: -50% -50%;
+}
+
+/*display flex*/
+.element {
+    /*s'applique sur le parent*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*textalign*/
+.element {
+    /*s'applique sur le parent*/
+    text-align: center;
+    /*element inline/inline-block sur le parent*/
+}
